@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-image: "images/lp3.jpg";
+}
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('fonts/White.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CustomFont2';
+    src: url('fonts/White.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CustomFont3';
+    src: url('fonts/White.otf') format('truetype');
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #d95a8d;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #750c32 3px solid;
+}
+
+.header .logo {
+    float: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'CustomFont2', 'Arial', sans-serif; /* Apply second custom font */
+}
+
+.header .nav ul {
+    list-style: none;
+    float: right;
+}
+
+.header .nav ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('images/lp8.png') no-repeat center center/cover;
+    height: 400px;
+    color: #140202;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'CustomFont1';
+    src: url('fonts/White.otf') format('truetype');
+
+    
+}
+
+.hero h2 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: 'CustomFont1','Arial',sans-serif;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background:#e2376d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.products {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: 'CustomFont1','Arial',sans-serif;
+
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: #f48eb8;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+.product-card p {
+    margin-bottom: 20px;
+}
+
+.about {
+    background: #d95a8d;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: 'CustomFont1','Arial',sans-serif;
+
+}
+
+.about p {
+    font-size: 18px;
+    width: 70%;
+    margin: auto;
+}
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+    background: url('images/lp15.jpg!bw700')no-repeat center center/cover;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: 'CustomFont1','Arial',sans-serif;
+
+}
+
+.contact form {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f6adc6;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #d95a8d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.footer h2{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: 'CustomFont1','Arial',sans-serif;
+
+}
